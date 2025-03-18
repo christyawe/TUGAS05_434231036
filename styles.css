@@ -1,0 +1,83 @@
+/* Mengatur seluruh body */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #F5F5F5;
+    color: #333;
+}
+
+/* Navbar */
+.navbar {
+    padding: 15px;
+}
+
+.navbar-brand img {
+    margin-right: 10px;
+}
+
+.navbar-nav .nav-link {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/* Container utama */
+.container h2 {
+    margin-bottom: 20px;
+}
+
+/* Kotak pencarian */
+.input-group {
+    max-width: 500px;
+    margin: 0 auto 20px;
+}
+
+/* Card untuk tempat nongkrong */
+.card {
+    border: none;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.card-img-top {
+    height: 200px;
+    object-fit: cover;
+}
+
+.card-body {
+    text-align: center;
+}
+
+.btn-info {
+    background-color: #5D4037;
+    border: none;
+}
+
+.btn-info:hover {
+    background-color: #8B4513;
+}
+
+/* Bagian komunitas */
+section.bg-light {
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Footer */
+footer {
+    text-align: center;
+}
+
+footer h5 {
+    margin-bottom: 15px;
+}
+
+footer a {
+    transition: color 0.3s;
+}
+
+footer a:hover {
+    color: #FFD700;
+}
